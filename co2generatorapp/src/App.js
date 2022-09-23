@@ -9,7 +9,7 @@ class App extends Component {
     randomNumber: 0,
   }
 
-  // This is a new comment
+  // This is a new comment test
   componentWillUnmount() {
     this.setState({
       greenRandomCO2Values: clearTimeout(this.state.greenRandomCO2Values),
